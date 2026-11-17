@@ -1,0 +1,17 @@
+PROJETO "clients" - DIA 1 (pronto a abrir no Android Studio)
+
+COMO ABRIR E RODAR
+1. Descompacta o zip. Fica uma pasta "clients".
+2. Abre o Android Studio > Open (ou File > Open) > escolhe a pasta "clients" > OK
+   (a pasta certa e a que tem dentro o ficheiro settings.gradle.kts)
+3. Se perguntar "Trust Project", clica Trust Project.
+4. Espera o Gradle terminar (barra a carregar em baixo, pode demorar varios minutos).
+   - Se pedir para instalar SDK/plataforma: clica "Install" / "Accept" / "Finish".
+   - Se sugerir atualizar o Gradle/Android Gradle Plugin: pode ignorar ("Remind me later").
+5. Tools > Device Manager > Create Device > Pixel 6 > Next > baixa uma System Image > Finish.
+6. Escolhe o emulador no topo e clica no botao verde (Run).
+
+FICHEIRO QUE INTERESSA PARA A PROVA
+  app/src/main/java/com/example/clients/MainActivity.kt
+FONTES
+  app/src/main/res/font/inter_regular.ttf e inter_bold.ttf
